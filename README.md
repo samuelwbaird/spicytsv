@@ -52,11 +52,14 @@ See example2.tsv for an example of this in use.
 | ---- | ---- | ---- | ---- | ---- |
 |Threatening Bear | A threatening bear appears | Forest | claws | 10 |
 | | You've woken a very grump bear | River | bite | 15 |
+| | | | | |
 | Angry Beaver | This beaver wants you to leave its river | River | bite | 10 |
 | | These rapids are getting rapidly more dangerous as an angry beaver appears |  |  |  |
 | | Knock knock, whose there? BEAVER! |  |  |  |
+| | | | | |
 | Tiger | Tiger Tiger Burning Bright Right NOW! | Forest | claws | 10 |
 | | Surprise, it is I, a Tiger |  | bite | 15 |
+| | | | | |
 | Tourist | Oh no, its people | Forest | complaint | 5 |
 | |  | River | litter | 25 |
 | |  | Plains | pollution | 50 |
