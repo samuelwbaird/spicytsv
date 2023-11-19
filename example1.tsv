@@ -1,13 +1,22 @@
-# content definition for a set of web pages																								
-# each page has multiple tags and multiple paragraphs of text content																								
-# each page also has a single image with url, width and height parameters																								
-																								
-title	subheading	author	[tags]	{image.url}	{image.width}	{image.height}	[text_content]																	
-Why types don't matter	Deleting your types for fun and profit	Samuel Baird	programming	https://image.com/funny_image1.jpeg	512	256	Here is the first paragraph of this article..																	
-			humour				Here is the second paragraph of this article...																	
-							Followed by a witty concluding paragraph.																	
-Programming with your feet	Unlock the productivity if your remaining limbs	Samuel Baird	serious	https://image.com/feet.jpeg	512	320	Why are we all only using 2 limbs?																	
-			feet				How to use your feet...																	
-			productivity				Analytics and results...																	
-			lifehacks																					
-																								
+# a list of NPCs for a game																									
+# each has a set of possible locations they appear, and a list of attached weapon items																									
+																									
+name	[random_descriptions]	[locations]	[{weapons.name}]	[{weapons.damage}]																					
+Threatening Bear	A threatening bear appears	Forest	claws	10																					
+	You've woken a very grump bear	River	bite	15																					
+																									
+Angry Beaver	This beaver wants you to leave its river	River	bite	10																					
+	These rapids are getting rapidly more dangerous as an angry beaver appears																								
+	Knock knock, whose there? BEAVER!																								
+																									
+Tiger	Tiger Tiger Burning Bright Right NOW!	Forest	claws	10																					
+	Surprise, it is I, a Tiger		bite	15																					
+																									
+Tourist	Oh no, its people	Forest	complaint	5																					
+		River	litter	25																					
+		Plains	pollution	50																					
+		Town																							
+																									
+																									
+																									
+								

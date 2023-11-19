@@ -1,1 +1,25 @@
-# content definition for a set of we
+# content definition for a set of web pages																								
+# this file has multiple sections, one defining a top level categories page																								
+# and a second section with the content for all pages																								
+																								
+# each categorie has an associated tag and a title to use on the home page																								
+<categories>																								
+tag	title																							
+programming	Interesting posts about programming																							
+humour	Humourous articles to make you smile																							
+serious	Read about the important things																							
+productivity	Articles on improving your productivity																							
+lifehacks	Or learn about some surprising life hacks																							
+																								
+# the pages each have multiple tags and multiple paragraphs of text content																								
+# each page also specifies single image with url, width and height parameters																								
+<pages>																								
+title	subheading	author	[tags]	{image.url}	{image.width}	{image.height}	[text_content]																	
+Why types don't matter	Deleting your types for fun and profit	Samuel Baird	programming	https://image.com/funny_image1.jpeg	512	256	In the thrilling world of software development, where conventions are meant to be broken and norms are meant to be challenged, a revolutionary idea is sweeping through the coding community: improving code quality by tossing out all those pesky type annotations. Who needs clarity and predictability anyway? Embrace the chaos, and watch your code ascend to new heights of enigmatic brilliance!																	
+			humour				Gone are the days of mundane variable declarations and predictable function signatures. Say hello to the future, where every line of code is a riddle waiting to be solved by the chosen ones (or the interns, but let's not quibble over details). By removing all type information, you're not just writing code; you're crafting a masterpiece that will keep your colleagues on the edge of their seats, eagerly awaiting the next twist in the plot. Forget about understanding the purpose of a function at a glance – real developers prefer their code to be an enigma, wrapped in a mystery, and sprinkled with a dash of confusion.																	
+							Sure, some skeptics may argue that type information provides valuable documentation and helps prevent bugs, but who needs that kind of hand-holding? Bugs are just the spice that adds flavor to the coding experience. Embrace the uncertainty, and revel in the thrill of debugging, where every unexpected outcome is an opportunity to showcase your problem-solving prowess. So, dear developer, cast away the shackles of type safety, and let your code shine as the beacon of mystery in the vast sea of predictability. Your colleagues will thank you (eventually).																	
+Programming with your feet	Unlock the productivity if your remaining limbs	Samuel Baird	serious	https://image.com/feet.jpeg	512	320	In the fast-paced realm of programming, where every keystroke counts, a groundbreaking technique is emerging to revolutionize productivity: quadruple limb programming. Imagine the sheer efficiency of unleashing the full potential of your hands and feet simultaneously, dancing across the keyboard and pedals like a virtuoso pianist composing a symphony of code. This avant-garde approach not only elevates your coding prowess but also turns your workspace into a kinetic masterpiece, where typing becomes a choreographed performance.																	
+			feet				With your hands expertly navigating the keyboard and your feet gracefully tapping away at foot pedals, you'll be amazed at the new heights of productivity you can achieve. Embrace the rhythm of the coding dance, as your fingers and toes synchronize to create a harmonious flow of logic. Sure, some may question the sanity of programming with all four limbs, but true innovators understand that the path to peak productivity is often paved with unconventional methods. So, kick off those coding conventions and let your extremities become the maestros of efficiency, orchestrating a symphony of code that will leave your colleagues in awe and your productivity soaring to unprecedented levels.																	
+			productivity																					
+			lifehacks																					
+																								
