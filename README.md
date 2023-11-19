@@ -65,6 +65,93 @@ See example2.tsv for an example of this in use.
 | |  | Plains | pollution | 50 |
 | |  | Town |  |  |
 
+	[
+		{
+			"name": "Threatening Bear",
+			"random_descriptions": [
+				"A threatening bear appears",
+				"You've woken a very grump bear"
+			],
+			"locations": [
+				"Forest",
+				"River"
+			],
+			"weapons": [
+				{
+					"name": "claws",
+					"damage": "10"
+				},
+				{
+					"name": "bite",
+					"damage": "15"
+				}
+			]
+		},
+		{
+			"name": "Angry Beaver",
+			"random_descriptions": [
+				"This beaver wants you to leave its river",
+				"These rapids are getting rapidly more dangerous as an angry beaver appears",
+				"Knock knock, whose there? BEAVER!"
+			],
+			"locations": [
+				"River"
+			],
+			"weapons": [
+				{
+					"name": "bite",
+					"damage": "10"
+				}
+			]
+		},
+		{
+			"name": "Tiger",
+			"random_descriptions": [
+				"Tiger Tiger Burning Bright Right NOW!",
+				"Surprise, it is I, a Tiger"
+			],
+			"locations": [
+				"Forest"
+			],
+			"weapons": [
+				{
+					"name": "claws",
+					"damage": "10"
+				},
+				{
+					"name": "bite",
+					"damage": "15"
+				}
+			]
+		},
+		{
+			"name": "Tourist",
+			"random_descriptions": [
+				"Oh no, its people"
+			]
+			"locations": [
+				"Forest",
+				"River",
+				"Plains",
+				"Town"
+			],
+			"weapons": [
+				{
+					"name": "complaint",
+					"damage": "5"
+				},
+				{
+					"name": "litter",
+					"damage": "25"
+				},
+				{
+					"name": "pollution",
+					"damage": "50"
+				}
+			]
+		}
+	]
+
 ## Implementation ##
 
 It's really just a set of conventions, but a reference Lua implementation is included, that demonstrates converting two supplied example files into equivalent JSON.
