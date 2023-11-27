@@ -40,13 +40,14 @@ local function parse_tsv(data, convert_values_types)
 			end
 			current_row[#current_row + 1] = (current_value and table.concat(current_value) or '')
 			current_value = nil
-		elseif char == '\n'then
+		elseif char == '\n' or char == '\r' then
 			if current_value then
 				if convert_values_types then
 					current_row[#current_row + 1] = convert_value(table.concat(current_value))
 				else
 					current_row[#current_row + 1] = table.concat(current_value)
 				end
+				current_value = nil
 			end
 			current_row = nil
 		else
