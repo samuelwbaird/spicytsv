@@ -88,7 +88,7 @@ end
 local function clean(row)
 	local out = {}
 	for i, c in ipairs(row) do
-		out[i] = c:match('^%s*(.-)%s*$')
+		out[i] = (type(c) == 'string' and c:match('^%s*(.-)%s*$') or c)
 	end
 	return out
 end
