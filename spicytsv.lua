@@ -28,8 +28,6 @@ local function parse_tsv(data, convert_values_types)
 		if in_quote then
 			if char == in_quote and (i == #data or data:sub(i + 1, i + 1) == '\t') then
 				in_quote = false
-				current_row[#current_row + 1] = table.concat(current_value)
-				current_value = nil
 			else
 				current_value[#current_value + 1] = char
 			end
