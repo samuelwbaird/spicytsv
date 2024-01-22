@@ -26,7 +26,7 @@ local function parse_tsv(data, convert_values_types)
 		local char = data:sub(i, i)
 
 		if in_quote then
-			if char == in_quote and (i == #data or data:sub(i + 1, i + 1) == '\t') then
+			if char == in_quote and (i == #data or data:sub(i + 1, i + 1) == '\t' or data:sub(i + 1, i + 1) == '\n' or data:sub(i + 1, i + 1) == '\r') then
 				in_quote = false
 			else
 				current_value[#current_value + 1] = char
